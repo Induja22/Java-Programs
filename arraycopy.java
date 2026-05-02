@@ -20,6 +20,7 @@ class arraycopy{
         int arr4[] = {1,5,8,3,9};
         int arr5[] = new int[arr4.length];    //int arr5[] = arr4.clone(); 
         arr5 = arr4.clone();
+        System.out.println(Arrays.toString(arr5));
         for(int i=0;i<arr5.length;i++){
             System.out.print(arr5[i] + " ");   //System.out.println(Arrays.toString(arr5));
         }
